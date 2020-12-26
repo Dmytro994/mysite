@@ -8,6 +8,10 @@ class ChoiceInline(admin.TabularInline):
     extra = 3
 
 
+
+
+
+
 class QuestionAdmin(admin.ModelAdmin):
     ffieldsets = [
         (None,               {'fields': ['question_text']}),
